@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HelloFresh WebTests" preserve-order="true" verbose="1">
+	<test name="helloFreshSmokeTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.hellofresh.challenge.WebTest"/>
+		</classes>
+	</test>
+</suite>

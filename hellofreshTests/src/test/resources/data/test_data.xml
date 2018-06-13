@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<hellofresh>
+	<newUser>
+		<firstname>Firstname</firstname>
+		<lastname>LastName</lastname>
+		<password>Qwerty</password>
+		<company>Company</company>
+		<address1>Qwerty, 123</address1>
+		<address2>zxcvb</address2>
+		<city>Qwerty</city>
+		<state>Colorado</state>
+		<postCode>12345</postCode>
+		<other>Qwerty</other>
+		<phone>12345123123</phone>
+		<phoneMobile>12345123123</phoneMobile>
+		<alias>hf</alias>	
+	</newUser>
+	<newUser>
+		<firstname>Firstname</firstname>
+		<lastname>LastName</lastname>
+		<password>Qwerty</password>
+		<company>Company</company>
+		<address1>Qwerty, 123</address1>
+		<address2>zxcvb</address2>
+		<city>Qwerty</city>
+		<state>Colorado</state>
+		<postCode>12345</postCode>
+		<other>Qwerty</other>
+		<phone>12345123123</phone>
+		<phoneMobile>12345123123</phoneMobile>
+		<alias>hf</alias>	
+	</newUser>
+	<login>
+		<email>hf_challenge_123456@hf12345.com</email>
+		<password>12345678</password>
+		<username>Joe Black</username>
+	</login>
+	<dashboardPage>
+		<pageUrl></pageUrl>
+		<infoText></infoText>
+		<pageTitle></pageTitle>
+	</dashboardPage>
+	<accountPage>
+		<headingText>MY ACCOUNT</headingText>
+		<pageUrl>controller=my-account</pageUrl>
+		<infoText>Welcome to your account.</infoText>
+		<pageTitle></pageTitle>
+	</accountPage>
+	<checkoutPage>
+		<headingText>ORDER CONFIRMATION</headingText>
+		<pageUrl>controller=order-confirmation</pageUrl>
+		<infoText>Your order on My Store is complete.</infoText>
+		<pageTitle>Order confirmation - My Store</pageTitle>
+		<itemName>Faded Short Sleeve T-shirts</itemName>
+	</checkoutPage>
+	<testName>
+		<login>logInTest</login>
+		<signUp>signInTest</signUp>
+		<checkout>checkoutTest</checkout>
+	</testName>
+</hellofresh>
